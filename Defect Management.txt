@@ -1,0 +1,38 @@
+1. What is Defect ?
+-> Defect is the variance from a desired product attribute (it can be a wrong, missing or extra data).
+
+2. Types of Defect ?
+-> Data Quality/Database Defects: Deals with improper handling of data in the database.
+- Critical Functionality Defects: The occurrence of these bugs hampers the crucial functionality of the application. 
+- Functionality Defects: These defects affect the functionality of the application.
+- Security Defects: Application security defects generally involve improper handling of data sent from the user to the application.
+- User Interface Defects: As the name suggests, the bugs deal with problems related to UI are usually considered less severe.
+
+3. What is Bug(Defect) Life Cycle.
+-> “A computer bug is an error, flaw, mistake, failure, or fault in a computer program that prevents it from working correctly or
+produces an incorrect result. Bugs arise from mistakes and errors, made by people, in either a program’s source code or its design.”
+
+4. Defect Stages.
+-> 1. New
+   2. Assigned
+   3. Open
+   4. Fixed
+   5. Pending retest
+   6. Retest
+
+5. What is Defect Severity.
+-> Severity is absolute and Customer-Focused. It is the extent to which the defect can affect the software. In other words it defines the
+   impact that a given defect has on the system.
+- Critical: The defect that results in the termination of the complete system or one or more component of the 
+  system and causes extensive corruption of the data.
+
+6. Defect Priority ?
+-> Priority is Relative and Business-Focused. Priority defines the order in which we should resolve a defect.
+
+7. Scenario of Defect Priority - Severity .
+-> High Priority & High Severity: An error which occurs on the basic functionality of the application and will not allow the user to use the system.
+(Eg. A site maintaining the student details, on saving record if it, doesn’t allow to save the record then this is high priority and high severity bug.)
+- High Priority & Low Severity: The spelling mistakes that happens on the cover page or heading or title of an application.
+- High Severity & Low Priority: An error which occurs on the functionality of the application (for which there is no workaround) and will not allow the
+  user to use the system but on click of link which is rarely used by the end user.
+- Low Priority and Low Severity: Any cosmetic or spelling issues which is within a paragraph or in the report (Not on cover page, heading, title).
